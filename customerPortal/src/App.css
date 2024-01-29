@@ -1,0 +1,50 @@
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  max-width: 640px;
+  margin: auto;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+  color: rebeccapurple;
+  background-color: rebeccapurple;
+}
+
+.circle-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 20px;
+}
+
+.circle-row:last-child {
+  justify-content: flex-start;
+}
+
+.hero-container {
+  background-color: blueviolet;
+  width: 100%;
+  font-family: 'Rock 3D', system-ui;
+  font-size: 200px;
+}
+
+.w-100 {
+  width: 100%;
+}
