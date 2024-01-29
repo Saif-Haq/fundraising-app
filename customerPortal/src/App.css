@@ -41,10 +41,27 @@
 .hero-container {
   background-color: blueviolet;
   width: 100%;
-  font-family: 'Rock 3D', system-ui;
+
+}
+
+.hero-container .flex-space-between img {
+  width: auto;
+}
+
+.hero-container p {
   font-size: 200px;
+  font-family: 'Rock 3D', system-ui;
 }
 
 .w-100 {
   width: 100%;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sixteen-by-nine.aspect-ratio {
+  padding-bottom: 56.25%
 }

@@ -1,0 +1,5 @@
+CSS
+
+Hero Section Aspect Ratio :)
+https://dabblet.com/gist/2590942
+http://jsbin.com/vatuqiyebu/edit?html,css,output
