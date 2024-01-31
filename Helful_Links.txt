@@ -3,3 +3,14 @@ CSS
 Hero Section Aspect Ratio :)
 https://dabblet.com/gist/2590942
 http://jsbin.com/vatuqiyebu/edit?html,css,output
+
+how to resive image dynamically on screen width decreaser html css 
+
+        img {
+            max-width: 100%; /* Set maximum width to 100% of the parent container */
+            height: auto; /* Maintain the aspect ratio */
+            display: block; /* Remove any default inline styles */
+            margin: auto; /* Center the image within its container */
+        }
+
+        
