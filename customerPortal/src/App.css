@@ -6,10 +6,10 @@
   color: #888;
 }
 
-.App {
+/* .App {
   font-family: sans-serif;
   text-align: center;
-}
+} */
 
 .container {
   max-width: 640px;
@@ -92,4 +92,9 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.rounded-button:hover {
+  height: 21vw;
+  width: 21vw;
 }
