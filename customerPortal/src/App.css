@@ -12,31 +12,47 @@
 } */
 
 .container {
-  max-width: 640px;
+  max-width: 80%;
   margin: auto;
+  margin-top: 40px;
+}
+
+.container p {
+  display: flex;
+  font-size: 32px;
+  justify-content: center;
+  font-weight:600;
+  font-family: 'Rock 3D', system-ui;
 }
 
 .circle {
   width: 200px;
   height: 200px;
-  margin-bottom: 10px;
   color: rebeccapurple;
   background-color: rebeccapurple;
+  border-radius: 4px;
+  box-shadow: 14px 6px 18px -13px rgba(0,0,0,0.75);
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+}
+
+.circle:hover {
+  border:4px solid rebeccapurple;
+  background-color: #66339994;
 }
 
 .circle-row {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 40px;
   flex-wrap: wrap;
   width: 100%;
   gap: 20px;
+  margin-top: 40px;
 }
 
-.circle-row:last-child {
-  justify-content: flex-start;
-}
+
+
 
 .hero-container {
   background-color: blueviolet;
@@ -44,11 +60,17 @@
   position: relative;
 }
 
+.hero-alien-image {
+  max-width: 100%;
+  height: 250px;
+  padding: 8px;
+}
+
 .hero-alien-image img {
   max-width: 100%;
-  height: auto;
-  display: block;
-  margin: auto;
+  height: 100%;
+  border-radius: 4px;
+  box-shadow: 14px 6px 18px -13px rgba(0,0,0,0.75);
 }
 
 .hero-alien-image p {
@@ -74,7 +96,6 @@
 
 .flex {
   display: flex;
-  justify-content: space-evenly;
 }
 
 p {
@@ -87,14 +108,14 @@ p {
   position: absolute;
   bottom: 20px;
   right: 20px;
-  height: 20vw;
-  width: 20vw;
+  height: 4vw;
+  width: 4vw;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .rounded-button:hover {
-  height: 21vw;
-  width: 21vw;
+  height: 5vw;
+  width: 5vw;
 }

@@ -7,25 +7,16 @@ const App = () =>
       <HeroSection />
 
       <div className="container">
+        <p>Fund-raising Categories</p>
         <div className="circle-row">
+          <div className="circle"></div>
           <div className="circle"></div>
           <div className="circle"></div>
           <div className="circle"></div>
         </div>
-
         <div className="circle-row">
           <div className="circle"></div>
           <div className="circle"></div>
-          <div className="circle"></div>
-        </div>
-
-        <div className="circle-row">
-          <div className="circle"></div>
-          <div className="circle"></div>
-          <div className="circle"></div>
-        </div>
-
-        <div className="circle-row">
           <div className="circle"></div>
         </div>
       </div>
